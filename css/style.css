@@ -140,15 +140,16 @@ body {
   color: #b6895b;
 }
 .navbar .widget {
-  height: 3rem;
+  height: 4rem;
   width: 16rem;
   background-color: #18a22f;
   border-radius: 1rem;
   position: fixed;
-  margin-bottom: -170vh;
+  margin-left: 70%;
+  margin-bottom: -160vh;
 }
 .navbar .widget a {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   cursor: pointer;
   height: 100%;
   width: 100%;
@@ -160,6 +161,7 @@ body {
 }
 .navbar .widget img {
   padding: 0.5rem;
+  width: 18%;
 }
 /* Hero section */
 .hero {
@@ -664,6 +666,13 @@ footer .credit a {
   }
   .modal-content {
     flex-wrap: wrap;
+  }
+  .navbar .widget {
+    margin-left: 50%;
+    width: 35%;
+  }
+  .navbar .widget a {
+    font-size: 1.7rem;
   }
 }
 
